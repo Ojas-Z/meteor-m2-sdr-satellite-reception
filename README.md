@@ -2,6 +2,7 @@
 
 Receiving and decoding LRPT weather imagery from the Meteor-M2-4 satellite using a RTL-SDR v4 and a V-dipole antenna.
 
+<img src="media/final_img_c.png" width="500">
 
 ## Background
 ### Meteor M2-4
@@ -18,7 +19,9 @@ The RTL-SDR V4 used here is used for it's economical price and high compatibilit
 
 As the satellite crosses overhead during a pass, the SDR captures the transmits the RF signal, corrects for the continuously shifting Doppler offset caused by the satellite's relative motion, demodulates the signal, and reconstructs the image line by line as data arrives.
 
-- **Signal chain:** Antenna → SDR → SatDump → composite image
+- **Signal chain:** Antenna → SDR → SatDump → final image
+
+SatDump is the main software used in the signal chain. It can also generate false-colour composites from the original black-and-white captures from the satellite. 
 
 ### Pass Prediction & Tracking
 
@@ -43,7 +46,11 @@ Due to Meteor-M2 being in low Earth orbit, its relative velocity shifts the rece
 
 ### Troubleshooting
 
-It took about 20 tries over multiple months to get all the variables dialled in, time of day and week, dimensions of the antenna design, SatDump settings, weather conditions, etc.
+It took about 20 tries over multiple months to get all the variables dialed in, time of day and week, dimensions of the antenna design, SatDump settings, weather conditions, etc.
+
+Original black-and-white image, captured on 21.04.2025
+
+<img src="media/final_img_bw.png" width="500">
 
 ## Equipment List
 
