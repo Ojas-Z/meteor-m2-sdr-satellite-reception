@@ -15,6 +15,8 @@ In a traditional radio receiver, filtering, demodulation, and decoding are handl
 
 The RTL-SDR V4 used here is used for it's economical price and high compatibility with software on Windows as well as Linux.
 
+<img src="media/sdr.jpeg" width="500">
+
 ## How it works
 
 As the satellite crosses overhead during a pass, the SDR captures the transmits the RF signal, corrects for the continuously shifting Doppler offset caused by the satellite's relative motion, demodulates the signal, and reconstructs the image line by line as data arrives.
@@ -35,6 +37,8 @@ During active passes, the built-in tracking of SatDump can be used.
 A V-dipole was built and tuned for the 137 MHz weather satellite band using the kit, rather than buying a commercial antenna. The optimal dimensions being, **53.5cm** for each leg and a **120°** angle between the legs. A dipole was chosen over a directional design because it needs no rotator to track a satellite moving across the sky during a pass, although a directional design offers better gain. 
 
 The open antenna is aligned either towards the North or South, depending on the direction that the satellite is approaching from. It is mounted perpendicular, 1m above the ground.
+
+<img src="media/antenna.jpeg" width="500">
 
 ### No LNA
 
