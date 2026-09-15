@@ -63,5 +63,3 @@ Original black-and-white image, captured on 21.04.2025
 - Coax cable + connectors (from kit)
 - Laptop running SatDump
 - Look4Sat for mobile pass tracking
-
-## Antenna Diagram
