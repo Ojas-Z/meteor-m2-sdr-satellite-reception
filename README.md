@@ -32,7 +32,7 @@ During active passes, the built-in tracking of SatDump can be used.
 
 ### Antenna: Self-Built V-Dipole
 
-A V-dipole was built and tuned for the 137 MHz weather satellite band rather than buying a commercial antenna. The optimal dimensions being, **53.5cm** for each leg and a **120°** angle between the legs. A dipole was chosen over a directional design because it needs no rotator to track a satellite moving across the sky during a pass, although a directional design offers better gain. 
+A V-dipole was built and tuned for the 137 MHz weather satellite band using the kit, rather than buying a commercial antenna. The optimal dimensions being, **53.5cm** for each leg and a **120°** angle between the legs. A dipole was chosen over a directional design because it needs no rotator to track a satellite moving across the sky during a pass, although a directional design offers better gain. 
 
 The open antenna is aligned either towards the North or South, depending on the direction that the satellite is approaching from. It is mounted perpendicular, 1m above the ground.
 
